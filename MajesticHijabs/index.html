@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta name="viewport" content="width=device width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="Site.css" type="text/css" />
     <title>Document</title>
 </head>
 <body>
@@ -16,7 +17,41 @@
         </nav>
     </header>  
     <main>
-        <aside><img src="images.logo.png" alt="Majestic Hijabs"></aside>
+        <aside><img src="images.logo.png" class = "logo" alt="Majestic Hijabs"></aside>
+        <aside><img src="images.banner.png" class= "banner" alt="Majestic Hijabs"></aside>
+
+        <style> .logo {
+            max-width: 300px;
+            min-width: none;
+            max-height: 300px;
+            min-height: none;
+        }
+        
+        </style>
+        <article>
+            <style> .banner {
+                max-height: 750px;
+                min-height: none;
+                max-width: 100%;
+                min-width: none;
+                
+            }
+             </style>
+            <h1>Welcome to Majestic Hijabs!</h1>
+            <p class ="sub-title">
+                From red to purple, our hijabs are traditional or exotic all to satisfy your hijab needs.
+                Take a moment to 
+                <a href="Hijab.html">Browse our Hijabs</a>
+                and see which of our majestical hijabs are soon to arrive at you doorstep.
+            </p>
+        </article>
     </main> 
+    <footer>
+        <nav>
+            <li><a href="/">Home</a></li>
+            <li><a href="Hijab.html">Hijabs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </nav>
+    </footer>
 </body>
 </html>
