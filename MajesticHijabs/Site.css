@@ -63,6 +63,10 @@ html, body {
     width: 75%;
   }
 
+  .columns {
+    display: flex;
+  }
+
   @media only screen and (min-width: 768px) {
     
   
@@ -71,4 +75,41 @@ html, body {
     margin-left: 2%;
    }
 
+   .columns-desktop {
+    display: flex;
+   }
+
+  }
+
+  /*Hijabs*/
+  .Hijab {
+   width: 400px;
+  
+   margin: 10px;
+   background-color: #fff;
+   border: solid 1px #ccc;
+  }
+
+  .Hijab .Title {
+    font-weight: bold;
+  }
+
+  .Hijab .columns {
+    width: 100%;
+  }
+
+  .Hijab .price {
+    text-align: right;
+  }
+
+  .Hijab .columns div {
+    width: 50%;
+  }
+
+  .Hijab button {
+    background-color: #a493c0;
+    padding: 10px;
+    border: solid 1px #a493c0;
+    border-radius: 3px;
+    color: #fff;
   }
