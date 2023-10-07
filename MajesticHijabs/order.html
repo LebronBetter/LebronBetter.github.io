@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="Site.css" type="text/css" />
+    <title>Majestic Hijabs</title>
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="Hijab.html">Hijabs</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <main>
+        <aside><img src="images.logo.png" class = "logo" alt="Majestic Hijabs"></aside>
+     
+
+        <style> .logo {
+            max-width: 300px;
+            min-width: none;
+            max-height: 300px;
+            min-height: none;
+        }
+        
+        </style>
+        <article>
+            <h1>Order</h1>
+           <form action="https://localhost:7071/api/post" method="post">
+            <div class = "input-group">
+            <div><label for="first name">First Name</label></div>    
+            <div><input type="text" name = "first name" id = "first name" /></div>
+            </div>
+            
+            <div class = "input-group">
+                <div><label for="last name">Last Name</label></div>    
+                <div><input type="text" name = "last name" id = "last name" /></div>
+                </div>
+            
+                <div class = "input-group">
+                    <div><label for="address">Address</label></div>    
+                    <div><input type="text" name = "address" id = "address" /></div>
+                    </div>
+
+                    <div class = "input-group">
+                        <div><label for="postal code">Postal Code</label></div>    
+                        <div><input type="text" name = "postal code" id = "postal code" /></div>
+                        </div>
+                        
+                        <div class = "input-group">
+                            <div><label for="comments">Comments</label></div>   
+                            <div>
+                                <textarea
+                                name="comments"
+                                id="comments"
+                                cols="30"
+                                rows="10"
+                                ></textarea>
+                            </div>
+                        </div>
+
+                        <input type="reset" value="Reset"/>
+                        <input type="submit" value="Order"/>
+
+           </form>
+        </article>
+    </main> 
+    <footer>
+        <nav>
+            <li><a href="/">Home</a></li>
+            <li><a href="Hijab.html">Hijabs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </nav>
+    </footer>
+</body>
+</html>
